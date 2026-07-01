@@ -19,7 +19,7 @@ export function Contact() {
     setStatus('loading');
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/ka0095353@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/krishnaenterprises1356@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
