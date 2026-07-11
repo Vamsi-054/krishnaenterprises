@@ -19,7 +19,6 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3">
             <img src={logo} alt="Krishna Enterprises Logo" className="h-16 w-16" />
-            <h1 className="text-xl text-black uppercase">Krishna Enterprises</h1>
           </div>
 
           {/* Desktop Navigation */}
