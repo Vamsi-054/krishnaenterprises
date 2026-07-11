@@ -19,7 +19,7 @@ export function Contact() {
     setStatus('loading');
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/vamsi2728204@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/krishnaenterprises1356@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -91,7 +91,7 @@ export function Contact() {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg mb-1">Email</h4>
-                  <p className="text-gray-600">vamsi2728204@gmail.com</p>
+                  <p className="text-gray-600">krishnaenterprises1356@gmail.com</p>
                 </div>
               </div>
 
