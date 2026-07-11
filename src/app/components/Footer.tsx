@@ -12,7 +12,7 @@ export function Footer() {
             <p className="text-white font-semibold">
               Ph no: +91 9618273448
             </p>
-            
+            <a
               href="mailto:krishnaenterprises1356@gmail.com"
               className="text-white font-semibold mt-1 block hover:text-gray-300 transition"
             >
