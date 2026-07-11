@@ -1,10 +1,8 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import logo from '@/assets/logo.png';
-
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -12,15 +10,13 @@ export function Header() {
       setMobileMenuOpen(false);
     }
   };
-
   return (
     <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Krishna Enterprises Logo" className="h-16 w-16" />
+            <img src={logo} alt="Krishna Enterprises Logo" className="h-12 w-auto object-contain" />
           </div>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex space-x-8">
@@ -44,7 +40,6 @@ export function Header() {
               </button>
             </nav>
           </div>
-
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -53,7 +48,6 @@ export function Header() {
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <nav className="md:hidden py-4 border-t">
