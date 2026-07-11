@@ -16,6 +16,8 @@ export function ProjectGallery() {
     { name: 'Construction of Pumping Main, Rapid Sand Filters, Sump, Pump House, Staff Quarters and Compound Wall near Yellampally Reservoir for Peddapally-Ramagundam Segment', location: 'Karimnagar District, Telangana' },
     { name: 'Jurala Project Gadwal Water Supply Scheme', location: 'Telangana' },
     { name: 'Talelma LIS', location: 'Telangana' },
+    { name: 'Part B of the work Providing Bulk Water connection to Telangana Special Food Processing Zone (TSFPZs), Lingampally(V). Sadasiva nagar (M), Kamareddy (District) under SRSP Balkonda segment', location: 'Telangana' },
+    { name: 'Diversion & Shifting of Mission Bhagiratha water supply pipeline for Elimination of Manned level crossing No 214 at Railway Km 522-9 – 523-0.', location: 'Telangana'},
   ];
 
   return (
