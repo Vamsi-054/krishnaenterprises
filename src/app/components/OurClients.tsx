@@ -1,10 +1,9 @@
 'use client';
-
 import humePipeLogo from '@/assets/indianhumelogo.png'
 import ltLogo from '@/assets/l&tlogo.png';
 import missionBhagirathaLogo from '@/assets/bhagirathalogo.png';
 import kmvLogo from '@/assets/kmv.jpeg';
-import hmwssblogo from '@/assets/HMWSSB.jpeg';
+import hmwssbLogo from '@/assets/hmwssb.jpeg';
 
 export function OurClients() {
   const clients = [
@@ -26,10 +25,9 @@ export function OurClients() {
     },
     {
       name: 'HMWSSB',
-      logo: hmwssblogo,
+      logo: hmwssbLogo,
     },
   ];
-
   return (
     <section id="clients" className="py-20 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
@@ -41,7 +39,6 @@ export function OurClients() {
           </p>
         </div>
       </div>
-
       <div className="relative">
         <style>{`
           @keyframes scroll {
@@ -93,24 +90,8 @@ export function OurClients() {
               </div>
             </div>
           ))}
-          {/* Third set for extra smoothness */}
-          {clients.map((client, index) => (
-            <div
-              key={`third-${index}`}
-              className="flex-shrink-0 mx-8 bg-white rounded-lg shadow-lg p-12 w-96"
-            >
-              <div className="h-48 flex items-center justify-center">
-                <img 
-                  src={client.logo} 
-                  alt={`${client.name} logo`} 
-                  className="max-w-full max-h-full object-contain"
-                />
-              </div>
-            </div>
-          ))}
         </div>
       </div>
-
       <div className="mt-12 text-center">
         <p className="text-gray-600 italic max-w-3xl mx-auto">
           We are proud to work with leading organizations in the infrastructure sector.
