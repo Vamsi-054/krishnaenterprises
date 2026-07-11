@@ -4,7 +4,7 @@ import humePipeLogo from '@/assets/indianhumelogo.png'
 import ltLogo from '@/assets/l&tlogo.png';
 import missionBhagirathaLogo from '@/assets/bhagirathalogo.png';
 import kmvLogo from '@/assets/kmv.jpeg';
-import hmwssblogo from '@/assets/hmwssb.jpeg';
+import hmwssblogo from '@/assets/HMWSSB.jpeg';
 
 export function OurClients() {
   const clients = [
