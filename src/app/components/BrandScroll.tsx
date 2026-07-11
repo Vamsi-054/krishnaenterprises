@@ -2,7 +2,7 @@
 import logo from '@/assets/logo.png';
 export function BrandScroll() {
   return (
-    <section className="py-2 bg-white border-y border-gray-200 overflow-hidden">
+    <section className="py-2 bg-white shadow-[0_2px_8px_rgba(0,0,0,0.08)] overflow-hidden">
       <style>{`
         @keyframes scrollText {
           from {
