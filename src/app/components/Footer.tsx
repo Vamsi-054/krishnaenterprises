@@ -5,20 +5,20 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl mb-4">KRISHNA ENTERPRISES</h3>
-            <p className="text-gray-400 leading-relaxed mb-4">
-              Our mission is to deliver innovative, sustainable and efficient engineering solutions that exceed client expectations while contributing to the development of infrastructure and communities.
-            </p>
-            <p className="text-white font-semibold">
-              Ph no:+91 9618273448
-            </p>
-              href="mailto:krishnaenterprises1356@gmail.com"
-              className="text-white font-semibold mt-1 block hover:text-gray-300 transition"
-            >
-              krishnaenterprises1356@gmail.com
-          </a>
-          </div>
-
+  <h3 className="text-xl mb-4">KRISHNA ENTERPRISES</h3>
+  <p className="text-gray-400 leading-relaxed mb-4">
+    Our mission is to deliver innovative, sustainable and efficient engineering solutions that exceed client expectations while contributing to the development of infrastructure and communities.
+  </p>
+  <p className="text-white font-semibold">
+    +91 9618273448
+  </p>
+  
+    href="mailto:krishnaenterprises1356@gmail.com"
+    className="text-white font-semibold mt-1 block hover:text-gray-300 transition"
+  >
+    krishnaenterprises1356@gmail.com
+  </a>
+</div>
           {/* Quick Links */}
           <div>
             <h3 className="text-xl mb-4">Quick Links</h3>
