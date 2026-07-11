@@ -1,4 +1,4 @@
-import { Droplets, Sprout, Home, Building } from 'lucide-react';
+import { Droplets, PenTool, HardHat, ClipboardList, ShieldCheck, Award } from 'lucide-react';
 
 export function Services() {
   return (
@@ -29,63 +29,56 @@ export function Services() {
             </p>
           </div>
 
-          {/* Water Supply Subcategories */}
-          <div className="grid md:grid-cols-3 gap-6 pl-8">
+          {/* Core Capabilities as Water Supply Subcategories */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pl-8">
             <div className="bg-blue-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 border-l-4 border-blue-600">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 mb-4">
-                <Sprout className="w-6 h-6 text-blue-600" />
+                <PenTool className="w-6 h-6 text-blue-600" />
               </div>
-              <h4 className="text-lg mb-3">Irrigation</h4>
+              <h4 className="text-lg mb-3">Design & Engineering</h4>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Large scale irrigation projects including canal networks and lift irrigation schemes.
+                We develop innovative, technically sound designs using the latest engineering technologies, tailored to the specific hydraulic and environmental requirements of each project.
               </p>
             </div>
 
             <div className="bg-blue-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 border-l-4 border-blue-600">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 mb-4">
-                <Home className="w-6 h-6 text-blue-600" />
+                <HardHat className="w-6 h-6 text-blue-600" />
               </div>
-              <h4 className="text-lg mb-3">RWS&S</h4>
+              <h4 className="text-lg mb-3">Procurement & Construction</h4>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Rural Water Supply and Sanitation projects ensuring clean water access to rural communities.
+                Our procurement and construction teams execute projects efficiently from start to finish, ensuring quality materials, skilled workmanship, and adherence to project specifications.
               </p>
             </div>
 
             <div className="bg-blue-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 border-l-4 border-blue-600">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 mb-4">
-                <Building className="w-6 h-6 text-blue-600" />
+                <ClipboardList className="w-6 h-6 text-blue-600" />
               </div>
-              <h4 className="text-lg mb-3">PHMED</h4>
+              <h4 className="text-lg mb-3">Project Management</h4>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Public Health and Municipal Engineering Department projects for urban infrastructure development.
+                Professional oversight at every stage ensures timely delivery, cost control, and seamless coordination between design, procurement, and on-site execution teams.
               </p>
             </div>
-          </div>
-        </div>
 
-        {/* Core Capabilities */}
-        <div className="mt-16 bg-gray-50 rounded-lg p-8">
-          <h3 className="text-2xl text-center mb-8">Core Capabilities</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-            <div className="text-center">
-              <h4 className="text-lg mb-2 text-blue-600">Design & Engineering</h4>
-              <p className="text-gray-700">Innovative solutions using latest technologies</p>
+            <div className="bg-blue-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 border-l-4 border-blue-600">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 mb-4">
+                <ShieldCheck className="w-6 h-6 text-blue-600" />
+              </div>
+              <h4 className="text-lg mb-3">Integrity</h4>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We uphold the highest ethical standards in every project, building lasting trust with clients, partners, and the communities we serve.
+              </p>
             </div>
-            <div className="text-center">
-              <h4 className="text-lg mb-2 text-blue-600">Procurement & Construction</h4>
-              <p className="text-gray-700">Efficient execution from start to finish</p>
-            </div>
-            <div className="text-center">
-              <h4 className="text-lg mb-2 text-blue-600">Project Management</h4>
-              <p className="text-gray-700">Professional oversight ensuring timely delivery</p>
-            </div>
-            <div className="text-center">
-              <h4 className="text-lg mb-2 text-blue-600">Integrity</h4>
-              <p className="text-gray-700">Upholding the highest ethical standards in every project</p>
-            </div>
-            <div className="text-center">
-              <h4 className="text-lg mb-2 text-blue-600">Excellence</h4>
-              <p className="text-gray-700">Striving for superior quality and excellence in every aspect of our work</p>
+
+            <div className="bg-blue-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 border-l-4 border-blue-600">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 mb-4">
+                <Award className="w-6 h-6 text-blue-600" />
+              </div>
+              <h4 className="text-lg mb-3">Excellence</h4>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We strive for superior quality in every aspect of our work, from initial planning through final commissioning, consistently exceeding client expectations.
+              </p>
             </div>
           </div>
         </div>
