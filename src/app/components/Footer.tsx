@@ -1,4 +1,15 @@
+import { useState } from 'react';
+import { Copy, Check } from 'lucide-react';
+
 export function Footer() {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText('krishnaenterprises1356@gmail.com');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,12 +23,22 @@ export function Footer() {
             <p className="text-white font-semibold">
               Ph no: +91 9618273448
             </p>
-            <a
-              href="mailto:krishnaenterprises1356@gmail.com"
-              className="text-white font-semibold mt-1 block hover:text-gray-300 transition"
+            <button
+              onClick={handleCopyEmail}
+              className="flex items-center gap-2 text-white font-semibold mt-2 hover:text-gray-300 transition"
             >
-              krishnaenterprises1356@gmail.com
-            </a>
+              {copied ? (
+                <>
+                  <Check className="w-4 h-4 text-green-400" />
+                  <span className="text-green-400">Copied!</span>
+                </>
+              ) : (
+                <>
+                  <Copy className="w-4 h-4" />
+                  krishnaenterprises1356@gmail.com
+                </>
+              )}
+            </button>
           </div>
           {/* Quick Links */}
           <div>
