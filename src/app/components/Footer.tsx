@@ -7,11 +7,16 @@ export function Footer() {
           <div>
             <h3 className="text-xl mb-4">KRISHNA ENTERPRISES</h3>
             <p className="text-gray-400 leading-relaxed mb-4">
-              Leading provider of comprehensive infrastructure and environmental services in India.
+              Our mission is to deliver innovative, sustainable and efficient engineering solutions that exceed client expectations while contributing to the development of infrastructure and communities.
             </p>
             <p className="text-white font-semibold">
-              +91 9618273448
+              Ph no:+91 9618273448
             </p>
+              href="mailto:krishnaenterprises1356@gmail.com"
+              className="text-white font-semibold mt-1 block hover:text-gray-300 transition"
+            >
+              krishnaenterprises1356@gmail.com
+          </a>
           </div>
 
           {/* Quick Links */}
@@ -49,10 +54,8 @@ export function Footer() {
           <div>
             <h3 className="text-xl mb-4">OUR SERVICES</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Water Supply</li>
-              <li>Irrigation</li>
-              <li>RWS&S</li>
-              <li>PHMED</li>
+              <li>Design And Engineering</li>
+              <li>Procurement and Construction</li>
               <li>Project Management</li>
             </ul>
           </div>
