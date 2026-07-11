@@ -8,17 +8,17 @@ export function PipelineStatistics() {
   const [totalKm, setTotalKm] = useState(0);
 
   const pipelineData = [
-    { type: 'BWSC Pipeline', meters: '197,034.15', km: 197.03 },
-    { type: 'DI Pipeline', meters: '154,977.57', km: 154.97 },
-    { type: 'MS Pipeline', meters: '22,806.32', km: 22.80 },
-    { type: 'PCCP Pipeline', meters: '4,914.88', km: 4.91 },
-    { type: 'PSC Pipes', meters: '19,696.00', km: 19.69 },
-    { type: 'HDPE Pipes', meters: '197,971.53', km: 197.97 },
-    { type: 'PVC Pipes', meters: '69,436.00', km: 69.43 },
+    { type: 'BWSC Pipeline', meters: '305,700.00', km: 305.70 },
+    { type: 'DI Pipeline', meters: '324,080.00', km: 324.08 },
+    { type: 'MS Pipeline', meters: '155,700.00', km: 155.70 },
+    { type: 'PCCP Pipeline', meters: '102,600.00', km: 102.60 },
+    { type: 'PSC Pipes', meters: '80,780.00', km: 80.78 },
+    { type: 'HDPE Pipes', meters: '397,400.00', km: 397.40 },
+    { type: 'PVC Pipes', meters: '270,900.00', km: 270.90 },
     { type: 'GI Pipes', meters: '86,454.00', km: 86.45 },
   ];
 
-  const total = 763.25;
+  const total = 1723.61;
 
   // Animate both total and individual pipelines on scroll into view
   useEffect(() => {
@@ -85,7 +85,7 @@ export function PipelineStatistics() {
   }, [isVisible]);
 
   const getProgressPercentage = (km: number) => {
-    return (km / 200) * 100; // Using 200 as max for visual balance
+    return (km / 400) * 100; // Using 400 as max for visual balance
   };
 
   return (
