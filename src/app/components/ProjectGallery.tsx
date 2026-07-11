@@ -1,7 +1,21 @@
 import krishnapic1 from '@/assets/krishnapic1.png';
 import krishnapic2 from '@/assets/krishnapic2.png';
+import { Construction } from 'lucide-react';
 
 export function ProjectGallery() {
+  const ongoingProjects = [
+    {
+      name: 'MS Pipeline Laying & Commissioning – Pragathi Nagar, Hyderabad',
+      location:
+        'Manufacturing, supply, delivery, laying and commissioning of 400mm dia inline and out-coated MS pipeline fabricated with 8mm thick MS plate, along with required specials to provide off-take and inter-connection of existing 800mm dia MYTAS/Nizampet MS pipeline to 400mm diameter Pragathi Nagar pipeline, from Kolan Raghava Reddy Statue to Prasad Hospital, under Pragathi Nagar Section, SD-1, O&M Division-XXII, DD Colony, Adikmet, Hyderabad.',
+    },
+    {
+      name: 'Multi-Village Drinking Water Supply – Kalaburagi District (Jal Jeevan Mission)',
+      location:
+        'Multi Village Drinking Water Supply Facilities to Aloor and other 58 villages (66 habitations) in Yadrami Taluk, and 22 villages (33 habitations) in Jewargi Taluk, of Kalaburagi District, on DBOT basis under Jal Jeevan Mission.',
+    },
+  ];
+
   const projects = [
     { name: 'KPCL Bellary', location: 'Bellary, Karnataka' },
     { name: 'Kuraicha Drinking Water Supply', location: 'Uttar Pradesh' },
@@ -60,7 +74,30 @@ export function ProjectGallery() {
           </div>
         </div>
 
-        {/* Projects List */}
+        {/* Ongoing Projects */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h3 className="text-2xl mb-8 text-center">Ongoing Projects</h3>
+          <div className="space-y-4">
+            {ongoingProjects.map((project, index) => (
+              <div
+                key={index}
+                className="flex items-start gap-4 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600"
+              >
+                <div className="flex-shrink-0 mt-1">
+                  <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-100">
+                    <Construction className="w-4 h-4 text-blue-600" />
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-base mb-1 text-gray-900">{project.name}</h4>
+                  <p className="text-sm text-gray-600 leading-relaxed">{project.location}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Completed Projects */}
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h3 className="text-2xl mb-8 text-center">Completed Projects</h3>
           <div className="grid md:grid-cols-2 gap-6">
