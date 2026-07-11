@@ -3,6 +3,8 @@
 import humePipeLogo from '@/assets/indianhumelogo.png'
 import ltLogo from '@/assets/l&tlogo.png';
 import missionBhagirathaLogo from '@/assets/bhagirathalogo.png';
+import kmvLogo from '@/assets/kmv.jpeg';
+import hmwssblogo from '@/assets/hmwssb.jpeg';
 
 export function OurClients() {
   const clients = [
@@ -20,11 +22,11 @@ export function OurClients() {
     },
     {
       name: 'KMV Projects Ltd',
-      logo: KMV,
+      logo: kmvLogo,
     },
     {
       name: 'HMWSSB',
-      logo: hmwssb,
+      logo: hmwssblogo,
     },
   ];
 
