@@ -1,4 +1,5 @@
 'use client';
+import logo from '@/assets/logo.png';
 
 export function BrandScroll() {
   const brandText = "KRISHNA ENTERPRISES";
@@ -16,7 +17,7 @@ export function BrandScroll() {
         }
         
         .animate-scroll-text {
-          animation: scrollText 30s linear infinite;
+          animation: scrollText 60s linear infinite;
           display: flex;
           width: max-content;
         }
@@ -26,6 +27,7 @@ export function BrandScroll() {
         {/* First set */}
         {Array(10).fill(null).map((_, index) => (
           <div key={`first-${index}`} className="flex items-center mx-8">
+            <img src={logo} alt="Krishna Enterprises logo" className="w-6 h-6 mr-3 object-contain" />
             <span className="text-white text-lg tracking-wider opacity-90">
               {brandText}
             </span>
@@ -35,6 +37,7 @@ export function BrandScroll() {
         {/* Duplicate set for seamless loop */}
         {Array(10).fill(null).map((_, index) => (
           <div key={`second-${index}`} className="flex items-center mx-8">
+            <img src={logo} alt="Krishna Enterprises logo" className="w-6 h-6 mr-3 object-contain" />
             <span className="text-white text-lg tracking-wider opacity-90">
               {brandText}
             </span>
@@ -44,6 +47,7 @@ export function BrandScroll() {
         {/* Third set for extra smoothness */}
         {Array(10).fill(null).map((_, index) => (
           <div key={`third-${index}`} className="flex items-center mx-8">
+            <img src={logo} alt="Krishna Enterprises logo" className="w-6 h-6 mr-3 object-contain" />
             <span className="text-white text-lg tracking-wider opacity-90">
               {brandText}
             </span>
