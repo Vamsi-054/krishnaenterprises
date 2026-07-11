@@ -18,6 +18,14 @@ export function OurClients() {
       name: 'Mission Bhagiratha',
       logo: missionBhagirathaLogo,
     },
+    {
+      name: 'KMV Projects Ltd',
+      logo: KMV,
+    },
+    {
+      name: 'HMWSSB',
+      logo: hmwssb,
+    },
   ];
 
   return (
