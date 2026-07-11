@@ -77,6 +77,8 @@ export function Footer() {
               <li>Design And Engineering</li>
               <li>Procurement and Construction</li>
               <li>Project Management</li>
+              <li>Integrity</li>
+              <li>Excellence</li>
             </ul>
           </div>
         </div>
