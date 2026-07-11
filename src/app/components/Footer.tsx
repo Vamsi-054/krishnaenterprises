@@ -10,7 +10,7 @@ export function Footer() {
               Our mission is to deliver innovative, sustainable and efficient engineering solutions that exceed client expectations while contributing to the development of infrastructure and communities.
             </p>
             <p className="text-white font-semibold">
-              Ph no:+91 9618273448
+              Ph no: +91 9618273448
             </p>
             
               href="mailto:krishnaenterprises1356@gmail.com"
