@@ -28,7 +28,7 @@ export function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              KRISHNA ENTERPRISES is the leading provider of comprehensive infrastructure and 
+              KRISHNA ENTERPRISES is a leading provider of comprehensive infrastructure and 
               environmental services in India. Our services encompass design, engineering, procurement, 
               construction, operation-maintenance, planning and project management.
             </p>
