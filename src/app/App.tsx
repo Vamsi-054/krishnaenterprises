@@ -2,6 +2,7 @@ import { Header } from '@/app/components/Header';
 import { Hero } from '@/app/components/Hero';
 import { About } from '@/app/components/About';
 import { Services } from '@/app/components/Services';
+import { OngoingProjects } from '@/app/components/OngoinProjects';
 import { ProjectGallery } from '@/app/components/ProjectGallery';
 import { PipelineStatistics } from '@/app/components/PipelineStatistics';
 import { OurClients } from '@/app/components/OurClients';
@@ -17,6 +18,7 @@ export default function App() {
       <Hero />
       <About />
       <Services />
+      <OngoingProjects />
       <ProjectGallery />
       <PipelineStatistics />
       <OurClients />
